@@ -1,0 +1,93 @@
+body{
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #303030;
+    text-align: center;
+}
+
+a {
+    
+    color: #fff;
+    text-decoration: overline;
+}
+
+a:hover {
+    color: #d8a8ff;
+}
+
+span {
+    font-weight: 600;
+    color: #b48123;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #d8a8ff;
+}
+
+p{
+    font-size: 1.3rem;
+}
+/*  Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #b48123;
+}
+
+.header {
+    background-image: url(images/background-header.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+    background-color: #b48123;
+    width: 100%;
+    opacity: 90%;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 .50rem 0;
+}
+
+.come-out p,
+.current-project p{
+    max-width: 50rem ;
+    margin: 0 auto;
+}
+
+.gallery-container {
+    background-color: #1b1b1b;
+    margin: 3rem;
+    padding: 3rem;
+
+}
+
+.gallery-img img{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Media queries */
+
+@media only screen and (min-width: 1200px) {
+    .gallery{
+    display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .container {
+        margin: 0 1.3rem;
+    }
+    .gallery img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
