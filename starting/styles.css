@@ -35,6 +35,8 @@ p{
     background-color: #b48123;
 }
 
+/* Header */
+
 .header {
     background-image: url(images/background-header.jpg);
     background-repeat: none;
@@ -53,6 +55,8 @@ p{
     text-align: center;
     margin: 0 .50rem 0;
 }
+
+/* Content */
 
 .come-out p,
 .current-project p{
